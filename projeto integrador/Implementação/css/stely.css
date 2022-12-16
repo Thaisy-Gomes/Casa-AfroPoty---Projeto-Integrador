@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      rgba(8, 8, 13, 1)0%,
+      rgba(8, 8, 13, 1) 50%,
+      rgba(218, 165, 32, 1) 50%,
+      rgba(218, 165, 32, 1) 100%
+    );
+   
+}
+
+#quadrado{
+    position: absolute;
+  left: 500px;
+  
+}
+.d{
+    position: absolute;
+  left: 1000px;
+  color: rgb(196, 154, 77);
+  background-color: black;
+}
+.nav-link{
+    color: orange;
+}
+.nav-item{
+    color: orange;
+    background-color: black;
+}
+   
+h4{
+    color: black;
+   
+}
+img{
+    height: 50vh;
+    width: 50vh;
+}
+.logo-slide {
+    position: absolute;
+    left: 170px;
+    top: 150px;
+}
+.titulo1{
+    color: black;
+    position: absolute;
+    left: 750px;
+    top: 180px;
+    font-size: 50px;
+}
+.sub{
+    color: black;
+    position: absolute;
+    left: 750px;
+    top: 235px;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+}
+    
+
+input{
+
+    border: 2px;
+    border-radius: 5px;
+    background-color: black;
+    color: orange;
+    margin: 10px;
+}
+
+form{
+
+    background-color: rgba(33, 33, 33, 0.281);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+#bnt{
+
+    margin: 10px;
+    background-color: black;
+    color: orange;
+
+}
+#titulo{
+
+    padding: 25px;
+    position: relative;
+    left: 400px;
+    background-color: black;
+    color: orange;
+}
+.carousel-control-next-icon{
+    position: relative;
+    left: -1100px;
+}
+.arousel-control-prev-icon{
+    position: relative;
+    left: -1500px;
+}
+p{
+    color: black;
+}
+.texto{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+.insta-btn{
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    border: none;
+    color: rgb(236, 236, 236);
+    padding: 25px 145px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 200px;
+    background-color: black;
+    }
+    
+    .linkedin-btn{
+    position: absolute;
+    left: 750px;
+    top: 420px;
+    border: none;
+    color: white;
+    padding: 25px 165px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 200px;
+    background-color: black;
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    }
